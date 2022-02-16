@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2967" data-name="Rectangle 2967" width="32" height="32" transform="translate(32 260)" fill="#d7d7d7"/>
+    </clipPath>
+  </defs>
+  <g id="Notifications-icon" transform="translate(-32 -260)" clip-path="url(#clip-path)">
+    <g id="notification" transform="translate(35 263)">
+      <path id="Subtraction_25" data-name="Subtraction 25" d="M15805.988,19335.176a4.4,4.4,0,0,1-4.4-4.4h8.793A4.4,4.4,0,0,1,15805.988,19335.176Z" transform="translate(-15795 -19308.803)" fill="#05f"/>
+      <path id="Path_10335" data-name="Path 10335" d="M18.69,53.57a7.674,7.674,0,0,1-5.95-10.693A7.666,7.666,0,0,0,3.3,50.36v3.064A7.368,7.368,0,0,1,.672,59.064a1.923,1.923,0,0,0,1.251,3.384H20.055a1.923,1.923,0,0,0,1.24-3.393A7.358,7.358,0,0,1,18.69,53.57Zm0,0" transform="translate(0 -40.47)" fill="#05f" opacity="0.5"/>
+      <path id="Path_10336" data-name="Path 10336" d="M288.321,5.494A5.494,5.494,0,1,1,282.827,0,5.494,5.494,0,0,1,288.321,5.494Zm0,0" transform="translate(-263.047)" fill="#05f"/>
+    </g>
+  </g>
+</svg>

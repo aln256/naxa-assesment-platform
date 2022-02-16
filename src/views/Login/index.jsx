@@ -48,19 +48,23 @@ class Login extends Component {
 
     return (
       <div>
-        <div className="row">
-          <div className="col-sm-6 col-md-4 col-md-offset-4">
-            <h1 className="text-center login-title">Login to continue to Bootsnipp</h1>
-            <div className="account-wall">
-              <img
-                className="profile-img"
-                src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
-                alt=""
-              />
-              <form className="form-signin" onSubmit={handleLogin}>
+        <div className="grid place-items-center mt-24">
+          <div className="">
+            <h1 className="text-center text-xl font-mono  ">Login to continue to Bootsnipp</h1>
+
+            <div className="rounded-lg bg-gray-300 mt-4">
+              <div className="pt-[12px]">
+                <img
+                  className="profile-img"
+                  src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120"
+                  alt=""
+                />
+              </div>
+
+              <form className="flex flex-col gap-4 mx-4 my-8" onSubmit={handleLogin}>
                 <input
                   type="text"
-                  className="form-control"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   placeholder="Name"
                   name="username"
                   value={username}
@@ -69,20 +73,32 @@ class Login extends Component {
                 />
                 <input
                   type="password"
-                  className="form-control"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   placeholder="Password"
                   name="password"
                   value={password}
                   onChange={handleInputChange}
                   required
                 />
-                <button className="btn btn-lg btn-primary btn-block" type="submit">
-                  Login
-                </button>
-                <span className="clearfix" />
-                <Link className="btn btn-lg btn-primary btn-block mt-10" to="/register">
-                  Register
-                </Link>
+
+                <div className="flex flex-col gap-4 py-4 text-center ">
+                  <Link to="/login">
+                    <button
+                      className="bg-red-300 px-8 py-2 text-black  rounded-xl cursor-pointer hover:bg-red-400 hover:text-white"
+                      type="submit"
+                    >
+                      Login
+                    </button>
+                  </Link>
+                  <Link to="/register">
+                    <button
+                      className="bg-red-300 px-6 rounded-xl py-2 cursor-pointer hover:bg-red-400 hover:text-white"
+                      type="submit"
+                    >
+                      Register
+                    </button>
+                  </Link>
+                </div>
               </form>
             </div>
           </div>

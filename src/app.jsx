@@ -1,7 +1,7 @@
 /* eslint-disable no-nested-ternary */
 import React from 'react';
 import { hot } from 'react-hot-loader';
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import PrivateRoute from '@Components/common/PrivateRoute';
 import Toast from '@Components/common/Toast';
 import indexRoutes from './routes';
@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="container">
       <Toast />
-      <nav className="nav-wrapper">
+      {/* <nav className="nav-wrapper">
         <ul>
           <li>
             <Link to="/actionloader">Loader</Link>
@@ -46,7 +46,7 @@ function App() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
       {generateRoutes(indexRoutes)}
     </div>
   );

@@ -17,7 +17,7 @@ const indexRoutes = [
     path: '/',
     name: 'Dashboard',
     component: Dashboard,
-    authenticated: true,
+    authenticated: false,
   },
 ];
 

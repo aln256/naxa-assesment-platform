@@ -42,6 +42,7 @@ module.exports = (env = {}) => {
             // enforce: 'pre',
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
+            
           },
           {
             test: /\.(js|jsx)$/,
