@@ -23,7 +23,7 @@ function Navbar() {
             />
             <img
               src={List}
-              className="cursor-pointer text-gray-400 px-2 py-2 hover:bg-blue-400 rounded-lg "
+              className="cursor-pointer text-gray-400 px-2 py-2 hover:bg-[#E9EBFF] rounded-lg "
               alt="More-icon"
             />
             <div className="flex items-center border-gray-200 border-2 bg-white rounded-md ">
@@ -55,9 +55,13 @@ function Navbar() {
                 placeholder="Search"
               />
             </div>
-            <div className="flex items-center bg-blue-700 rounded-lg cursor-pointer pr-4 py-[2px] hover:scale-105 transition  duration-400 ease-in">
-              <img src={Add} className="cursor-pointer  px-2 py-2  " alt="More-icon" />
-              <h1 className="text-sm font-semibold font-body text-white">Add Projects</h1>
+            <div className="flex items-center bg-blue-700 rounded-lg cursor-pointer  md:pr-4 py-[1px] hover:scale-105 transition  duration-400 ease-in">
+              <img
+                src={Add}
+                className="cursor-pointer md:w-12 w-24  sm:ml-2 md:ml-4 md:px-2 md:py-2  "
+                alt="More-icon"
+              />
+              <h1 className=" hidden md:inline-flex  md:text-sm   font-semibold font-body text-white">Add Projects</h1>
             </div>
           </div>
         </h1>
