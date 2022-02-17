@@ -32,7 +32,7 @@ function generateRoutes(routes) {
 
 function App() {
   return (
-    <div>
+    <>
       <Toast />
       {/* <nav className="nav-wrapper">
         <ul>
@@ -48,7 +48,7 @@ function App() {
         </ul>
       </nav> */}
       {generateRoutes(indexRoutes)}
-    </div>
+    </>
   );
 }
 

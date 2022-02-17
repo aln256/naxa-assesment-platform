@@ -6,14 +6,14 @@ import Add from '@Assets/image/icons/add.svg';
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between mx-4 my-8">
+    <div className="flex md:flex-col  lg:flex-row items-center justify-between lg:px-6 lg:mt-2 lg:my-6">
       <div>
-        <h1 className="text-2xl font-black font-body">Projects</h1>
+        <h1 className="lg:text-2xl lg:mt-2  md:text-4xl md:mt-12 font-black font-body">Projects</h1>
       </div>
-      <div>
+      <div className="md:mt-6">
         <h1 className="text-xl font-bold text-gray-600 ">
-          <div className="flex items-center gap-6">
-            <p className="text-xl">
+          <div className="flex  items-center md:gap-2 md:ml-6  lg:gap-2">
+            <p className="text-3xl">
               5 <span className="text-sm text-gray-500 font-body">projects</span>
             </p>
             <img
@@ -27,7 +27,7 @@ function Navbar() {
               alt="More-icon"
             />
             <div className="flex items-center border-gray-200 border-2 bg-white rounded-md ">
-              <p className="text-[14px] cursor-pointer font-body font-bold pl-4">Last Updated</p>
+              <p className="md:text-[10px] lg:text-[14px] cursor-pointer font-body font-bold pl-4">Last Updated</p>
               <img src={Down} className="cursor-pointer w-10  px-2 py-2  " alt="More-icon" />
             </div>
             <div className=" relative mx-auto text-gray-600">
@@ -55,13 +55,15 @@ function Navbar() {
                 placeholder="Search"
               />
             </div>
-            <div className="flex items-center bg-blue-700 rounded-lg cursor-pointer  md:pr-4 py-[1px] hover:scale-105 transition  duration-400 ease-in">
+            <div className="flex items-center bg-blue-700 rounded-lg cursor-pointer lg:pr-4 lg:py-0  md:pr-4 py-[1px] hover:scale-105 transition  duration-400 ease-in">
               <img
                 src={Add}
-                className="cursor-pointer md:w-12 w-24  sm:ml-2 md:ml-4 md:px-2 md:py-2  "
+                className="cursor-pointer md:w-12 lg:w-12  md:ml-2 lg:ml-4 md:px-2 md:py-2  "
                 alt="More-icon"
               />
-              <h1 className=" hidden md:inline-flex  md:text-sm   font-semibold font-body text-white">Add Projects</h1>
+              <h1 className=" md:hidden lg:inline-flex  lg:text-sm   font-semibold font-body text-white">
+                Add Projects
+              </h1>
             </div>
           </div>
         </h1>

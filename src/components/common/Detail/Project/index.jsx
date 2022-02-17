@@ -3,7 +3,7 @@ import Card from './Card/index';
 
 function Project() {
   return (
-    <div className="flex flex-col gap-4  mx-4 my-10">
+    <div className="flex flex-col gap-4  lg:mx-4 lg:my-2">
       <Card />
       <Card />
       <Card />
