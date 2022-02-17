@@ -18,7 +18,7 @@ function Navbar() {
             </p>
             <img
               src={Grid}
-              className="cursor-pointer text-gray-400 px-2 py-2 hover:bg-blue-400 rounded-lg "
+              className="cursor-pointer text-gray-400 px-2 py-2 hover:bg-[#E9EBFF] rounded-lg "
               alt="More-icon"
             />
             <img
@@ -26,9 +26,9 @@ function Navbar() {
               className="cursor-pointer text-gray-400 px-2 py-2 hover:bg-blue-400 rounded-lg "
               alt="More-icon"
             />
-            <div className="flex items-center outline outline-offset-2 outline-1 rounded-md ">
-              <p className="text-[12px] font-body pl-4">Last Updated</p>
-              <img src={Down} className="cursor-pointer  px-2 py-2  " alt="More-icon" />
+            <div className="flex items-center border-gray-200 border-2 bg-white rounded-md ">
+              <p className="text-[14px] cursor-pointer font-body font-bold pl-4">Last Updated</p>
+              <img src={Down} className="cursor-pointer w-10  px-2 py-2  " alt="More-icon" />
             </div>
             <div className=" relative mx-auto text-gray-600">
               <button type="submit" className="absolute pl-2 top-0 mt-3 mr-4">

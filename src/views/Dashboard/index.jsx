@@ -7,7 +7,7 @@ import Detail from '@Components/common/Detail/index';
 
 function Dashboard() {
   return (
-    <div className="flex flex-row bg-gray-50 ">
+    <div className="flex flex-row h-screen  bg-gray-50 ">
       <div className="basis-1/5">
         <Navbar />
       </div>

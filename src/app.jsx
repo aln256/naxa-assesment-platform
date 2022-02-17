@@ -32,7 +32,7 @@ function generateRoutes(routes) {
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Toast />
       {/* <nav className="nav-wrapper">
         <ul>

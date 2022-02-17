@@ -20,7 +20,7 @@ function Sidebar() {
 
           <img
             src={Left}
-            className="cursor-pointer px-2 py-2 bg-blue-300 rounded-full hover:scale-105 transition mt-4 duraiton-200 ease-in "
+            className="cursor-pointer px-2 py-2 bg-[#E9EBFF] rounded-full hover:scale-105 transition mt-4 duraiton-200 ease-in "
             alt="More-icon"
           />
         </div>

@@ -8,7 +8,7 @@ import App from './app';
 import Loader from './components/common/Loader';
 import configureStore from './store';
 import history from './utils/history';
-import './assets/css/index.css';
+// import './assets/css/index.css';
 
 const { persistor, store } = configureStore();
 
