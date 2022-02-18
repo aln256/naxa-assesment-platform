@@ -30,6 +30,7 @@ function Navbar() {
               <p className="md:text-[10px] lg:text-[14px] cursor-pointer font-body font-bold pl-4">Last Updated</p>
               <img src={Down} className="cursor-pointer w-10  px-2 py-2  " alt="More-icon" />
             </div>
+            <div />
             <div className=" relative mx-auto text-gray-600">
               <button type="submit" className="absolute pl-2 top-0 mt-3 mr-4">
                 <svg
